@@ -11,6 +11,7 @@ module.exports = (env, argv) => {
     },
     devtool: isProduction ? 'source-map' : 'inline-source-map',
     devServer: {
+      contentBase: path.join(__dirname, 'dist'),
       static: './dist',
     },
     plugins: [
@@ -50,6 +51,13 @@ module.exports = (env, argv) => {
                 ['@babel/preset-env', { targets: "defaults" }]
               ]
             }
+          }
+        },
+        {
+          test: /\.pdf$/,
+          type: 'asset/resource',
+          generator: {
+            filename: 'assets/[name][ext][query]'
           }
         },
       ],

@@ -529,3 +529,43 @@ footer > a {
     transform: rotate(-360deg) scale(1.2);
 }
 
+/* Mobile support */
+
+@media only screen and (max-width: 700px) {
+    nav {
+        display: none;
+    }
+
+    .themeToggleBtn {
+        margin-left: auto;
+    }
+
+    .introContainer {
+        flex-direction: column;
+    }
+
+    .introImage {
+        height: 90vw;
+        width: 90vw;
+        border-radius: 45vw;
+    }
+
+    .aboutMeContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portraitImage {
+        margin: unset;
+        width: 90vw;
+    }
+
+    .aboutMeSpacer {
+        height: 5vw;
+    }
+
+    .blurbContainer {
+        margin: unset;
+    }
+}

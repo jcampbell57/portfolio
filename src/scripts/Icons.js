@@ -13,18 +13,23 @@ class Icons {
             'html-wordmark': 'devicon-html5-plain-wordmark',
             'javascript': 'devicon-javascript-plain',
             'jest': 'devicon-jest-plain',
+            'json': 'devicon-json-plain',
+            'json-wordmark': 'devicon-json-plain-wordmark',
             'linkedin': 'devicon-linkedin-plain',
             'linkedin-wordmark': 'devicon-linkedin-plain-wordmark',
             'psql': 'devicon-postgresql-plain',
             'psql-wordmark': 'devicon-postgresql-plain-wordmark',
             'rails': 'devicon-rails-plain',
             'rails-wordmark': 'devicon-rails-plain-wordmark',
+            'react': 'devicon-react-original',
+            'react-wordmark': 'devicon-react-original-wordmark',
             'rspec': 'devicon-rspec-plain',
             'rspec-wordmark': 'devicon-rspec-plain-wordmark',
             'ruby': 'devicon-ruby-plain',
             'ruby-wordmark': 'devicon-ruby-plain-wordmark',
             'webpack': 'devicon-webpack-plain',
             'webpack-wordmark': 'devicon-webpack-plain-wordmark',
+            'yaml': 'devicon-yaml-plain',
         }
     }
 

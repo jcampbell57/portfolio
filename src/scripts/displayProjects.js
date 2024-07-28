@@ -129,7 +129,7 @@ const createProjectsHeader = () => {
     const filterIconsContainer = document.createElement('div')
     filterIconsContainer.classList.add('filterIconsContainer')
 
-    const iconNames = ['html-wordmark', 'css-wordmark', 'javascript', 'bootstrap-wordmark', 'ruby-wordmark', 'rails-wordmark', 'psql-wordmark', 'webpack-wordmark', 'rspec-wordmark', 'git-wordmark', 'github-wordmark', 'jest']
+    const iconNames = ['html-wordmark', 'css-wordmark', 'javascript', 'react-wordmark', 'ruby-wordmark', 'rails-wordmark', 'psql-wordmark', 'webpack-wordmark', 'rspec-wordmark', 'jest', 'json', 'yaml', 'bootstrap-wordmark', 'git-wordmark', 'github-wordmark']
     iconNames.forEach(name => {
         const button = document.createElement('button')
         const icon = icons.getIcon(name, 'filterIcon')

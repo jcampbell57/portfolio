@@ -29,7 +29,7 @@ const createAboutMeContent = () => {
 
     const aboutMeP2 = document.createElement('p')
     aboutMeP2.classList.add('aboutMeP2')
-    aboutMeP2.textContent = `After earning a degree in Business Administration (Finance), I spent five years as a math teacher for seventh and eighth grade students, where I utilized problem-solving and communication skills. My interest in technology continued to grow during this time, leading me to transition into software engineering.`
+    aboutMeP2.textContent = `After earning a degree in Business Administration (Finance), I spent five years as a math teacher for seventh and eighth grade students, where I utilized problem-solving and communication skills. My interest in technology continued to grow during this time, leading me to transition into software development.`
 
     const aboutMeP3 = document.createElement('p')
     aboutMeP3.classList.add('aboutMeP3')

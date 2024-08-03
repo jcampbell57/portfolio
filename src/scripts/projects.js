@@ -59,7 +59,7 @@ const projects = [
         name: 'odinbook',
         code_url: 'https://github.com/jcampbell57/odin-book-v2',
         live_url: 'https://odin-book-v2.fly.dev/',
-        desc: 'This is a simplified social media app meant to tie together the information learned during the rails module of The Odin Project.',
+        desc: "A relatively simple social media app. The purpose of this project is to tie together the concepts learned during the rails module of The Odin Project. This is the capstone project of The Odin Project's Ruby on Rails course.",
         altImgText: 'Odinbook user page.',
         icons: ['html', 'bootstrap', 'ruby', 'rails', 'psql', 'webpack', 'git', 'github'],
         img: {
@@ -72,7 +72,7 @@ const projects = [
         name: 'CV Builder',
         code_url: 'https://github.com/jcampbell57/cv-builder',
         live_url: 'https://fascinating-pegasus-6a0514.netlify.app/',
-        desc: 'A resume building app created to practice developing with React and get used to working with state and props.',
+        desc: 'An application where users can input their information to generate a CV/résumé. The purpose of this project is to practing developing with react state and props.',
         altImgText: 'Battleship gameplay',
         icons: ['css', 'javascript', 'react', 'json', 'git', 'github'],
         img: {
@@ -85,7 +85,7 @@ const projects = [
         name: 'Naval Warfare',
         code_url: 'https://github.com/jcampbell57/naval-warfare',
         live_url: 'https://jcampbell57.github.io/naval-warfare/',
-        desc: 'A battleship game meant to practice Test Driven Development (TDD) and tie together the concepts learned in the JavaScript module of The Odin Project.',
+        desc: "An interactive, two player game of Battleship. The purpose of this project is to practice Test Driven Development (TDD) and tie together the concepts learned in the JavaScript module of The Odin Project. This is the capstone project of The Odin Project's JavaScript course.",
         altImgText: 'Battleship gameplay',
         icons: ['css', 'javascript', 'jest', 'webpack', 'git', 'github'],
         img: {
@@ -98,7 +98,7 @@ const projects = [
         name: 'Weatherserve',
         code_url: 'https://github.com/jcampbell57/weather-app',
         live_url: 'https://jcampbell57.github.io/weather-app/',
-        desc: 'Input a city to retrieve weather information. This project utiliazes webpack, WeatherAPI, and localStorage, as well as promises and async/await functionality',
+        desc: 'Input a city to retrieve weather information. The purpose of this project is to practice integration of an API, linter, Prettier and JavaScript compiler.',
         altImgText: 'Weatherserve user page.',
         icons: ['css', 'javascript', 'webpack', 'json', 'git', 'github'],
         img: {
@@ -111,7 +111,7 @@ const projects = [
         name: 'Things To Do',
         code_url: 'https://github.com/jcampbell57/odin-todo-list',
         live_url: 'https://jcampbell57.github.io/odin-todo-list/',
-        desc: 'A todo list app that allows users to organize tasks into projects. This project utilizes webpack and localStorage. Tasks into projects can both be be edited and deleted.',
+        desc: 'A simple to-do list application. The purpose of this project is to practice serialization with JSON and object oriented programming.',
         altImgText: 'Todo list.',
         icons: ['css', 'javascript', 'webpack', 'json', 'git', 'github'],
         img: {
@@ -124,7 +124,7 @@ const projects = [
         name: 'Middle Ring Restaurant',
         code_url: 'https://github.com/jcampbell57/odin-restaurant-page',
         live_url: 'https://jcampbell57.github.io/odin-restaurant-page/',
-        desc: 'A simple restaurant page developed with the purpose of getting comfortable using webpack and to practice javascript modules with tabbed content.',
+        desc: 'A restaurant page with tabbed content that uses JavaScript alone to generate all of the content on the page. The purpose of this project is to practice using JavaScript modules and webpack.',
         altImgText: 'Middle Ring Restaurant Page.',
         icons: ['css', 'javascript', 'webpack', 'git', 'github'],
         img: {
@@ -137,7 +137,7 @@ const projects = [
         name: 'Tic Tac Toe',
         code_url: 'https://github.com/jcampbell57/odin-tic-tac-toe',
         live_url: 'https://jcampbell57.github.io/odin-tic-tac-toe/',
-        desc: 'A two-player Tic Tac Toe game. The focus of this project is to practice creating clean javascript code',
+        desc: 'An interactive two player Tic Tac Toe game. The purpose of this project is to practice creating clean javascript code with factory functions and modular functions.',
         altImgText: 'Tic Tac Toe.',
         icons: ['html', 'css', 'javascript', 'git', 'github'],
         img: {
@@ -149,10 +149,10 @@ const projects = [
     {
         name: 'Wormhole',
         code_url: 'https://github.com/jcampbell57/odin-library',
-        live_url: 'https://jcampbell57.github.io/odin-library/v2/',
-        desc: 'An interactive library application allows users to add and remove books, mark them as read, and sort each column of data.',
+        live_url: 'https://jcampbell57.github.io/odin-library/',
+        desc: 'An interactive library app. The purpose of this project is to practice using JavaScript objects and object constructors.',
         altImgText: 'Wormhole.',
-        icons: ['html', 'css', 'javascript', 'git', 'github'],
+        icons: ['html', 'css', 'javascript', 'json', 'git', 'github'],
         img: {
             small: wormhole_light_300w,
             medium: wormhole_light_600w,
@@ -162,8 +162,8 @@ const projects = [
     {
         name: 'Admin dashboard',
         code_url: 'https://github.com/jcampbell57/odin-admin-dashboard',
-        live_url: 'https://jcampbell57.github.io/odin-admin-dashboard/v2/',
-        desc: 'The purpose of this project is to create a responsive layout using CSS grid and flexbox.',
+        live_url: 'https://jcampbell57.github.io/odin-admin-dashboard/',
+        desc: "A responsive layout using CSS grid and flexbox. The purpose of this project was to practice creating an interface with CSS Grid. This is the capstone project of The Odin Project's Intermediate HTML and CSS course.",
         altImgText: 'Admin dashboard.',
         icons: ['html', 'css', 'git', 'github'],
         img: {
@@ -175,8 +175,8 @@ const projects = [
     {
         name: 'Sign-up Form',
         code_url: 'https://github.com/jcampbell57/odin-sign-up-form',
-        live_url: 'https://jcampbell57.github.io/odin-sign-up-form/v2/',
-        desc: 'A webpage developed to practicing creating, styling, and validating forms with HTML, CSS and JavaScript.',
+        live_url: 'https://jcampbell57.github.io/odin-sign-up-form/',
+        desc: 'A sign up form for a fake service. The purpose of this project was to practice form validation, css styling, and mobile styling.',
         altImgText: 'Sign-up form.',
         icons: ['html', 'css', 'javascript', 'git', 'github'],
         img: {
@@ -187,11 +187,11 @@ const projects = [
     },
     {
         name: 'Chess',
-        code_url: 'https://github.com/jcampbell57/ruby_projects/tree/main/chess',
+        code_url: 'https://github.com/jcampbell57/ruby_chess',
         live_url: 'https://replit.com/@jcampbell57/Chess#main.rb',
-        desc: 'The intent of this game is to show that I can take on a project with a lot of different components.',
+        desc: "A command line Chess game where two players can play against each other. The purpose of this project is to show that I can take on a project with a lot of different components. This is the capstone project of The Odin Project's Ruby course.",
         altImgText: 'Chess game.',
-        icons: ['ruby', 'rspec', 'git', 'github'],
+        icons: ['ruby', 'rspec', 'yaml', 'git', 'github'],
         img: {
             small: chess_300w,
             medium: chess_600w
@@ -199,9 +199,9 @@ const projects = [
     },
     {
         name: 'Connect Four',
-        code_url: 'https://github.com/jcampbell57/ruby_projects/tree/main/connect_four',
+        code_url: 'https://github.com/jcampbell57/ruby_connect_four',
         live_url: 'https://replit.com/@jcampbell57/Connect-Four#main.rb',
-        desc: 'The intent of this game is to practice test-driven-development with Ruby.',
+        desc: 'A command line Connect Four game where two players can play against each other. The purpose of this project was to practice Test Driven Development (TDD) with RSpec.',
         altImgText: 'Connect Four game.',
         icons: ['ruby', 'rspec', 'git', 'github'],
         img: {
@@ -212,9 +212,9 @@ const projects = [
     },
     {
         name: 'Hangman',
-        code_url: 'https://github.com/jcampbell57/hangman/tree/main/version_2',
+        code_url: 'https://github.com/jcampbell57/hangman',
         live_url: 'https://replit.com/@jcampbell57/Hangman',
-        desc: 'The intent of this game is to object oriented design with Ruby and serialization of game saves with YAML.',
+        desc: 'A command line Hangman game. The purpose of this project was to practice implementation of serialization with the save game feature.',
         altImgText: 'Hangman game.',
         icons: ['ruby', 'yaml', 'git', 'github'],
         img: {
@@ -227,7 +227,7 @@ const projects = [
         name: 'Mastermind',
         code_url: 'https://github.com/jcampbell57/ruby_mastermind',
         live_url: 'https://replit.com/@jcampbell57/FirmGullibleSystems#main.rb',
-        desc: 'A Mastermind game played utilizing ruby command-line interface.',
+        desc: 'A command line Mastermind game played against AI. The purpose of this project was to practice Object Oriented Programming (OOP).',
         altImgText: 'Mastermind game.',
         icons: ['ruby', 'git', 'github'],
         img: {
@@ -239,7 +239,7 @@ const projects = [
         name: 'Calculator',
         code_url: 'https://github.com/jcampbell57/odin-calculator',
         live_url: 'https://jcampbell57.github.io/odin-calculator/',
-        desc: 'A calculator developed with the purpose of reinforcing foundational javascript knowledge.',
+        desc: "A fully functional calculator with basic arithmetic operations that can be controlled with mouse or keyboard. This is the capstone project of The Odin Project's Foundations course.",
         altImgText: 'Mastermind game.',
         icons: ['html', 'css', 'javascript', 'git', 'github'],
         img: {
@@ -252,7 +252,7 @@ const projects = [
         name: 'Sketch Pad',
         code_url: 'https://github.com/jcampbell57/odin-etch-a-sketch',
         live_url: 'https://jcampbell57.github.io/odin-etch-a-sketch/',
-        desc: 'An Etch-a-Sketch app featuring an interactive grid created with javascript.',
+        desc: 'An Etch A Sketch app that allows users to create pixel art. The purpose of this project was to practice implementing a grid with flexbox that can by manipulated by the user.',
         altImgText: 'Mastermind game.',
         icons: ['html', 'css', 'javascript', 'git', 'github'],
         img: {
@@ -265,7 +265,7 @@ const projects = [
         name: 'Boot Roach Bomb',
         code_url: 'https://github.com/jcampbell57/odin-rock-paper-scissors',
         live_url: 'https://jcampbell57.github.io/odin-rock-paper-scissors/',
-        desc: 'One of my very first projects, a rock paper scissors game played against the computer. First player to reach a score of five wins!',
+        desc: 'A fun variant of the classic Rock, Paper, Scissors game! This game is played against AI over the course of five rounds. Ther purpose of this project is to practice basic JavaScript concepts and implement a functioning user interface.',
         altImgText: 'Mastermind game.',
         icons: ['html', 'css', 'javascript', 'git', 'github'],
         img: {

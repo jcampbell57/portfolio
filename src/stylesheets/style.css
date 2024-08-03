@@ -234,9 +234,9 @@ nav {
 }
 
 .introImage {
-    height: 30vw;
-    width: 30vw;
-    border-radius: 15vw;
+    height: min(30vw, 500px);
+    width: min(30vw, 500px);
+    border-radius: min(15vw, 250px);
     box-shadow: var(--box-shadow);
 }
 
@@ -412,6 +412,7 @@ nav {
 .portraitImage {
     width: 40vw;
     max-width: 90vw;
+    max-width: min(90vw, 640px);    
     border-radius: 8px;
     box-shadow: var(--box-shadow);
     margin-left: min(2vw, 2rem);

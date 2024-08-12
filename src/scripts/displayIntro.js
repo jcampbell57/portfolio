@@ -1,6 +1,6 @@
-import h3_sq_300w from '../assets/h3_sq_300w.png'
-import h3_sq_600w from '../assets/h3_sq_600w.png'
-import h3_sq_1250w from '../assets/h3_sq_1250w.png'
+import h4_sq_300w from '../assets/h4_sq_300w.png'
+import h4_sq_600w from '../assets/h4_sq_600w.png'
+import h4_sq_1250w from '../assets/h4_sq_1250w.png'
 import cv from '../assets/cv.pdf'
 
 export const createIntroContainer = () => {
@@ -12,10 +12,10 @@ export const createIntroContainer = () => {
 
     const introImage = document.createElement('img')
     introImage.classList.add('introImage')
-    introImage.src = h3_sq_1250w
-    introImage.srcset = `${h3_sq_1250w} 1250w,
-                         ${h3_sq_600w} 600w,
-                         ${h3_sq_300w} 300w`
+    introImage.src = h4_sq_1250w
+    introImage.srcset = `${h4_sq_1250w} 1250w,
+                         ${h4_sq_600w} 600w,
+                         ${h4_sq_300w} 300w`
     introImage.sizes = `(max-width: 320px) 300px,
                         (max-width: 640px) 600px
                         1250px`

@@ -30,7 +30,7 @@ export const createIntroContainer = () => {
 
     const introBlurb = document.createElement('p')
     introBlurb.classList.add('introBlurb')
-    introBlurb.textContent = 'My name is Jason Campbell, and I am a full-stack software developer based in the San Francisco Bay Area. I am a lifelong learner, eager to apply my knowledge and skills to create and improve products and services.'
+    introBlurb.textContent = "I'm Jason Campbell, a full-stack software developer based in the San Francisco Bay Area. With a background in education and finance, I bring a unique perspective to problem-solving in tech. I am proficient in Ruby on Rails, JavaScript, and React, and I'm dedicated to continuous learning and improving code quality."
 
     const introLinks = document.createElement('p')
     introLinks.classList.add('introLinks')

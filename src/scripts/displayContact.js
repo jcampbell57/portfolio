@@ -22,7 +22,7 @@ const createConnectIcons = () => {
     githubLink.addEventListener('mouseleave', () => githubLink.firstChild.classList.remove('colored'))
 
     const linkedinLink = document.createElement('a')
-    linkedinLink.href = 'https://linkedin.com/in/jason-campbell-51a027b8'
+    linkedinLink.href = 'https://linkedin.com/in/jasonmichaelcampbell'
     linkedinLink.target = '_blank'
     linkedinLink.appendChild(icons.getIcon('linkedin', 'contactIcon'))
     const linkedinText = document.createTextNode('LinkedIn')
